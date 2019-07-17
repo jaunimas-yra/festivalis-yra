@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+
+.title-opened{
+    height: 67.04px;
+    position: fixed;
+    left: -4px;
+    top: 15px;
+    margin-top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34.8818px;
+    line-height: 102.3%;
+    transform: rotate(-2.23deg);
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+}
+
+.header-opened{
+    background-color: #7000E3;
+    z-index: 70;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    height: 86%;
+}
+
+.header-closed{
+    content: "";
+}
+
+.menu-logo-opened{
+    position: absolute;
+    width: 29px;
+    height: 32px;
+    top: 28.45px;
+    right: 8%;
+    
+transform: rotate(-2.33deg);
+}
+
+.p-first{
+    position: relative;
+    left: 18px;
+    margin-top: 0px;
+    top: 121px;
+    bottom: 0px;
+    height: 52%;
+
+margin-bottom: 0px;
+
+padding-bottom: 0px;
+width: 79.3%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 100%;
+
+/* or 15px */
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+@media (width > 465px)
+{
+    .p-first{
+        font-size: 18px;
+
+line-height: 105%;
+
+width: 95%;
+    }
+}
+
+@media (width > 800px)
+{
+    .p-first{
+        font-size: 20px;
+
+line-height: 105%;
+
+width: 95%;
+    }
+}
+
+@media (width > 1400px)
+{
+    .p-first{
+        font-size: 23px;
+
+line-height: 105%;
+
+width: 95%;
+    }
+}
+
+.svg-1{
+    position: absolute;
+    left: 15px;
+    width: 162px;
+    height: 37px;
+    top: 432px;
+}
+
+.svg-2{
+    position: absolute;
+    left: 15px;
+    width: 162px;
+    height: 37px;
+    top: 486px;
+}
+
+.link-1{
+    position: absolute;
+height: 20px;
+left: 15px;
+top: 550px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 132%;
+
+/* identical to box height, or 20px */
+letter-spacing: 0.06em;
+text-decoration-line: underline;
+text-transform: uppercase;
+
+color: rgba(255, 255, 255, 0.7);
+}
+
+.link-2{
+    position: absolute;
+height: 23px;
+width: 225px;
+left: 15px;
+top: 580px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 132%;
+
+/* identical to box height, or 20px */
+letter-spacing: 0.06em;
+text-decoration-line: underline;
+text-transform: uppercase;
+
+color: rgba(255, 255, 255, 0.7);
+}
+
+.svg-3{
+    position: absolute;
+
+left: 18px;
+
+top: 640px;
+}
+.svg-4{
+    position: absolute;
+
+left: 48px;
+
+top: 640px;
+}
+.svg-5{
+    position: absolute;
+
+left: 77px;
+
+top: 640px;
+}
+
+@media (width < 340px)
+{
+    .svg-1{
+        top: 500px;
+    }
+    .svg-2{
+        top: 554px;
+    }
+    .svg-3, .svg-4, .svg-5{
+        top: 660px;
+    }
+    .link-1{
+        top: 600px;
+    }
+    .link-2{
+        top: 630px;
+    }
+}
+
+
+
